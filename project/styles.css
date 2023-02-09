@@ -1,0 +1,89 @@
+body{
+    background-color: #336633;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mainBody {
+    background-color: #ffffff;
+    width: 740px;
+    //display: flex;
+}
+
+.headField {
+    background-color: #000000;
+    width: 740px;
+}
+
+#headElem {
+    margin-left: 65%;
+}
+
+.subMainContainer{
+    display: flex;
+}
+
+.campusLink{
+    margin-left: 30%;
+}
+
+.cleStateHeader img{
+    margin-top: 15px;
+}
+
+.cleStateHeader ul{
+    vertical-align: middle;
+    margin: 50px 0 0 0;
+
+}
+
+.cleStateHeader #lastIL{
+    margin: 0px 0 0 0;
+
+} 
+
+.campusLink{
+    margin: 40px 0 40px 350px;
+}
+
+.cleStateHeader #cart{
+    margin-top: 0px;
+}
+
+.cleStateHeader li {
+    list-style: none;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #003300;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 0;
+}
+
+#footerText {
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+
+.footer {
+    background-color: #003300;
+    font-size: 11px;
+    FONT-FAMILY: Frutiger, Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.questions {
+    text-align: center;
+    font-size: 13px;
+    padding: 2px 0;
+}
+
+.questions a {
+    color: #000000;
+}

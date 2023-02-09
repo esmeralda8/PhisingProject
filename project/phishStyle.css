@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+svg {
+    position: absolute;
+    width: 30%;
+    margin: 0 0 0 20%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+
+  #person {
+    animation: dropIn 5s ease backwards infinite;
+  }
+
+  #boat {
+    animation: dropIn 5s ease backwards infinite;
+  }
+
+  #fishingPole {
+    animation: dropIn 5s ease backwards infinite;
+  }
+
+  #fish {
+    animation: dropIn 5s ease backwards infinite;
+  }
+
+  @keyframes dropIn {
+    20% {
+      transform: rotateZ(5deg);
+    }
+  }
+
+  #title{
+    margin: 2% 0 0 30%;
+  }
